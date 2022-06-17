@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+html {
+    background-image: url(/img/fundo.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+h1 {
+    font-size: 70px;
+    font-family: 'Josefin Sans';
+    text-align: center;
+    width: 100%;
+    height: 170px;
+    background-color: #00186221;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0;
+}
+
+#container {
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    margin-top: 150px;
+}
+
+button {
+    width: 105px;
+    height: 45px;
+}
+
+#count {
+    font-size: 45px;
+    font-family: 'Josefin Sans';
+    text-align: center;
+}
+
+.torre {
+    width: 350px;
+    height: 500px;
+    background-image: linear-gradient(to right bottom, #832801, #6f1d10, #581616, #401217, #280f13, #230d10, #1e090d, #190509, #23090c, #2d0b0d, #370b0b, #410c07);
+    float: left;
+    display: flex;
+    justify-content: center;
+    flex-direction: column-reverse;
+    flex-wrap: nowrap;
+    align-items: center;
+    border-radius: 10px;
+    border: 2px solid rgba(131, 10, 10, 0.514);
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+.choice {
+    background-image: linear-gradient(to right bottom, #028ae1, #037ed7, #0a71cc, #1165c1, #1859b6, #194fab, #19469f, #193c94, #143387, #0e2a7b, #06216e, #001962);
+}
+
+#diska {
+    width: 12%;
+    height: 40px;
+    background-image: linear-gradient(to right, #c5cf66, #adda85, #9ae2a7, #92e8c6, #98ebdf, #82e3e5, #71d9eb, #67cff0, #18b6f0, #009bef, #007de7, #305bd6);
+    border-radius: 8px;
+    border: 1px solid black;
+    border-top: 2px solid white;
+    border-left: 4px solid white;
+    border-right: 6px solid rgba(0, 0, 0, 0.753);
+}
+
+#diskb {
+    width: 25%;
+    height: 40px;
+    background-image: linear-gradient(to right, #c5cf66, #adda85, #9ae2a7, #92e8c6, #98ebdf, #82e3e5, #71d9eb, #67cff0, #18b6f0, #009bef, #007de7, #305bd6);
+    border-radius: 8px;
+    border: 1px solid black;
+    border-top: 2px solid white;
+    border-left: 4px solid white;
+    border-right: 6px solid rgba(0, 0, 0, 0.753);
+}
+
+#diskc {
+    width: 50%;
+    height: 40px;
+    background-image: linear-gradient(to right, #c5cf66, #adda85, #9ae2a7, #92e8c6, #98ebdf, #82e3e5, #71d9eb, #67cff0, #18b6f0, #009bef, #007de7, #305bd6);
+    border-radius: 8px;
+    border: 1px solid black;
+    border-top: 2px solid white;
+    border-left: 4px solid white;
+    border-right: 6px solid rgba(0, 0, 0, 0.753);
+}
+
+#diskd {
+    width: 75%;
+    height: 40px;
+    background-image: linear-gradient(to right, #c5cf66, #adda85, #9ae2a7, #92e8c6, #98ebdf, #82e3e5, #71d9eb, #67cff0, #18b6f0, #009bef, #007de7, #305bd6);
+    border-radius: 8px;
+    border: 1px solid black;
+    border-top: 2px solid white;
+    border-left: 6px solid white;
+    border-right: 6px solid rgba(0, 0, 0, 0.753);
+}
+
+#diske {
+    width: 100%;
+    height: 40px;
+    background-image: linear-gradient(to right, #c5cf66, #adda85, #9ae2a7, #92e8c6, #98ebdf, #82e3e5, #71d9eb, #67cff0, #18b6f0, #009bef, #007de7, #305bd6);
+    border-radius: 8px;
+    border: 1px solid black;
+    border-top: 2px solid white;
+    border-left: 8px solid white;
+    border-right: 6px solid rgba(0, 0, 0, 0.87);
+}
